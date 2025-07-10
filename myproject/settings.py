@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-^ox$mp2%lry9#f*o%-_j95tm5rgqqx3^#9u#bbyb4_bk81!0_g
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [''my_portolio-main-f8385a8.kuberns.cloud'']
+ALLOWED_HOSTS = ['my_portolio-main-f8385a8.kuberns.cloud']
 
 
 
@@ -116,7 +116,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 
-STATIC_URL = 'static/'
+STATIC_URL = 'static/',
 MEDIA_URL='/images/'
 STATICFILES_DIRS=[
   os.path.join(BASE_DIR, 'static')  
